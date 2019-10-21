@@ -129,6 +129,48 @@
     -1 0 -1 0
     ```
 
+小 A 已经写好了部分代码：
+
+- Input
+    ```java
+    // 创建一个 File 实例
+    File file = new File(filename);
+
+    // 创建一个此文件的 Scanner 实例
+    Scanner input = new Scanner(file);
+    ```
+
+    `Scanner` 有以下方法：
+    - `nextInt()`：读取并转换代表整数的下一个字符序列
+    - `next()`: 读取输入的下一个单词（由空格分隔）
+    - `nextLine()`: 读取输入的下一行
+
+    *请有选择的使用以上介绍的一个或多个方法进行文件读取，TA 也鼓励同学们自查使用更多方法*
+
+- Output
+    ```java
+    // 创建一个 File 实例
+    File file = new File(filename);
+
+    // 创建一个文件
+    PrintWriter output = new PrintWriter(file);
+    ```
+
+    `PrintWriter` 有以下方法：
+    - `append(char c)`: 此方法将指定字符追加到这个writer
+    - `print(boolean b) `: 此方法打印一个布尔值到文件中
+    - `print(char c) `: 此方法打印一个字符到文件中
+    - `print(char[] s) `: 此方法打印一个字符数组到文件中
+    - `print(double d) `: 此方法打印一个双精度浮点数到文件中
+    - `print(float f) `: 此方法打印一个浮点数到文件中
+    - `print(int i) `: 此方法打印一个整数到文件中
+    - `print(long l) `: 此方法打印一个长整数到文件中
+    - `print(String s) `: 此方法打印一个字符串到文件中
+    - `print(Object o) `: 此方法打印一个对象到文件中
+    - `println()`: 此方法通过写入行分隔符字符串终止当前行
+
+    *请有选择的使用以上介绍的一个或多个方法进行文件读取，TA 也鼓励同学们自查使用更多方法*
+
 希望你能继续帮小 A 完成文件读取与存储方法
 
 ## Bonus
