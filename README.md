@@ -18,23 +18,29 @@
 
 因此，希望同学们在完成每个 lab 后养成回顾的习惯，思考自己的代码还有哪些可以优化的地方。TA 在上次 lab 结束后也提供一份最佳实践供大家阅读和思考。
 
-在开始今天的内容前，花 10 - 15 分钟阅读 [Lab 4 最佳实践](./) 。
+在开始今天的内容前，花 10 - 15 分钟阅读 [Lab 4 最佳实践](https://github.com/Java-A-2019/lab4/issues/1) 。
 
 ## 打开 Lab5_Solution
 
 这次详细介绍一下使用 git 下载本次 lab
 
 1. 打开你希望将本 lab 项目下载到的文件夹路径，比如 TA 的路径是 `D:\2019LastHalf\Project\Lab`
-![img](./imgs/git-1.png)
+    ![img](./imgs/git-1.PNG)
 
 2. 鼠标右键，弹出选择栏，选择 `Git Bash Here` 选项开启 git bash
-![img](./imgs/git-2.png)
+    ![img](./imgs/git-2.PNG)
 
 3. 在 git bash 中输入命令 
 
         git clone <本 lab 的 https 地址>
 
+    ![img](./imgs/git-3.PNG)
+
 4. 下载完成，使用 Intellij 打开 Lab5_Solution
+
+    ![img](./imgs/git-4.png)
+
+    ![img](./imgs/git-5.PNG)
 
 ## 矩阵运算
 
