@@ -157,16 +157,16 @@
     ```
 
     `PrintWriter` 有以下方法：
-    - `append(char c)`: 此方法将指定字符追加到这个writer
-    - `print(boolean b) `: 此方法打印一个布尔值到文件中
-    - `print(char c) `: 此方法打印一个字符到文件中
-    - `print(char[] s) `: 此方法打印一个字符数组到文件中
-    - `print(double d) `: 此方法打印一个双精度浮点数到文件中
-    - `print(float f) `: 此方法打印一个浮点数到文件中
-    - `print(int i) `: 此方法打印一个整数到文件中
-    - `print(long l) `: 此方法打印一个长整数到文件中
-    - `print(String s) `: 此方法打印一个字符串到文件中
-    - `print(Object o) `: 此方法打印一个对象到文件中
+    - `close()`: 此方法关闭该流并释放与之关联的所有系统资源
+    - `print(boolean b) `: 此方法打印一个布尔值
+    - `print(char c) `: 此方法打印一个字符
+    - `print(char[] s) `: 此方法打印一个字符数组
+    - `print(double d) `: 此方法打印一个双精度浮点数
+    - `print(float f) `: 此方法打印一个浮点数
+    - `print(int i) `: 此方法打印一个整数
+    - `print(long l) `: 此方法打印一个长整数
+    - `print(String s) `: 此方法打印一个字符串
+    - `print(Object o) `: 此方法打印一个对象
     - `println()`: 此方法通过写入行分隔符字符串终止当前行
 
     *请有选择的使用以上介绍的一个或多个方法进行文件写入，TA 也鼓励同学们自查使用更多方法*
