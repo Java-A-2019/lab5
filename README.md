@@ -8,6 +8,7 @@
 
 ## Lab 要求
 
+0. 完成井字棋的 Code Review 部分的要求，回答思考题，并将相关文档上传至 FTP 本次 lab 的文件夹的 Code Review 文件夹下。
 1. 请先从 GitHub 下载作业，然后使用 IntelliJ 打开 Lab5_Solution 工程。
 2. 在本次 lab 中，需要你在 Lab5 这个类中完成 矩阵加、减 方法的编写。
 3. 运行 TestLab5 ，你将得到正误的评判。给 TA 当面检查后，请上传至 FTP 本次 lab 的文件夹下。
