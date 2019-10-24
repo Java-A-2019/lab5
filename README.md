@@ -20,6 +20,8 @@
 
 在开始今天的内容前，花 10 - 15 分钟阅读 [Lab 4 最佳实践](https://github.com/Java-A-2019/lab4/issues/1) 。
 
+阅读完成后，请进行上次 lab4 的 [Code Review](https://github.com/Java-A-2019/lab4/issues/3) 并完成 Code Review 的要求
+
 ## 打开 Lab5_Solution
 
 这次详细介绍一下使用 git 下载本次 lab
